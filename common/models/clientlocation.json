@@ -74,6 +74,14 @@
     "isactive": {
       "type": "boolean",
       "comments": "Is the Location Active?"
+    },
+    "faxnumber": {
+      "type": "string",
+      "comments": "Fax Number"
+    },
+    "fax": {
+      "type": "string",
+      "comments": "Fax Number"
     }
   },
   "validations": [],

@@ -49,5 +49,17 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "clientnote": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "clientshippingaccount": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

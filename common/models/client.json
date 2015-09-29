@@ -23,10 +23,40 @@
     "isactive": {
       "type": "boolean",
       "comments": "Is the Client Active?"
+    },
+    "email": {
+      "type": "string",
+      "comments": "General Email Address (e.g. info@domain.com)"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "clientcontacts": {
+      "type": "hasMany",
+      "model": "clientcontact",
+      "foreignKey": ""
+    },
+    "clientlocations": {
+      "type": "hasMany",
+      "model": "clientlocation",
+      "foreignKey": ""
+    },
+    "clientnotes": {
+      "type": "hasMany",
+      "model": "clientnote",
+      "foreignKey": ""
+    },
+    "clientshippingaccounts": {
+      "type": "hasMany",
+      "model": "clientshippingaccount",
+      "foreignKey": ""
+    },
+    "clientstuffs": {
+      "type": "hasMany",
+      "model": "clientstuff",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }

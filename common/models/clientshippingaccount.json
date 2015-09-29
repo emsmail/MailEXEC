@@ -1,0 +1,33 @@
+{
+  "name": "clientshippingaccount",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "comments": "Shipping Account Type (FedEx, UPS, etc.)"
+    },
+    "description": {
+      "type": "string",
+      "comments": "Account Description"
+    },
+    "notes": {
+      "type": "string",
+      "comments": "Account Notes"
+    },
+    "number": {
+      "type": "string",
+      "required": true,
+      "comments": "Account Number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

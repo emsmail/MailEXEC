@@ -1,0 +1,42 @@
+{
+  "name": "clientnote",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "lastupdatedbyusername": {
+      "type": "string",
+      "comments": "User who Last Updated the Note"
+    },
+    "lastupdateddatetime": {
+      "type": "date",
+      "comments": "Note Last Update Date/Time"
+    },
+    "createddatetime": {
+      "type": "date",
+      "required": true,
+      "comments": "Note Creation Date/Time"
+    },
+    "createdbyusername": {
+      "type": "string",
+      "required": true,
+      "comments": "User who Created the Note"
+    },
+    "body": {
+      "type": "string",
+      "comments": "Note Body"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "comments": "Note Title/Subject"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
