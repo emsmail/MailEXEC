@@ -1,0 +1,83 @@
+{
+  "name": "clientlocation",
+  "plural": "clientlocations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address1": {
+      "type": "string",
+      "required": true,
+      "comments": "Location Address Line #1"
+    },
+    "address2": {
+      "type": "string",
+      "comments": "Location Address Line #2"
+    },
+    "addresstype": {
+      "type": "string",
+      "required": true,
+      "comments": "Address Type (US/Foreign)"
+    },
+    "city": {
+      "type": "string",
+      "comments": "City Name"
+    },
+    "country": {
+      "type": "string",
+      "comments": "Country Name"
+    },
+    "dpbc": {
+      "type": "string",
+      "comments": "USPS Delivery Point Barcode"
+    },
+    "geolocation": {
+      "type": "string",
+      "comments": "Geo Mapping Coordinates"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "comments": "Location Name"
+    },
+    "phonenumber": {
+      "type": "string",
+      "comments": "Phone Number"
+    },
+    "postalcode": {
+      "type": "string",
+      "comments": "Foreign Postal Code"
+    },
+    "province": {
+      "type": "string",
+      "comments": "Foreign Provice/State Code"
+    },
+    "state": {
+      "type": "string",
+      "comments": "US State Code"
+    },
+    "zip4": {
+      "type": "string",
+      "comments": "USPS Zip Plus4 Code"
+    },
+    "zip5": {
+      "type": "string",
+      "comments": "USPS Zip Code"
+    },
+    "isheadquarters": {
+      "type": "boolean",
+      "required": true,
+      "comments": "Is this the Main/Headquarters Location?"
+    },
+    "isactive": {
+      "type": "boolean",
+      "comments": "Is the Location Active?"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

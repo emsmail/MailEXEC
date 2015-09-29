@@ -14,7 +14,15 @@
     },
     "websiteurl": {
       "type": "string",
-      "comments": "Client/Company Website"
+      "comments": "Client/Company Website URL"
+    },
+    "imageurl": {
+      "type": "string",
+      "comments": "Image URL"
+    },
+    "isactive": {
+      "type": "boolean",
+      "comments": "Is the Client Active?"
     }
   },
   "validations": [],

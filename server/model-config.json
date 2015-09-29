@@ -37,5 +37,17 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "clientlocation": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "clientcontact": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

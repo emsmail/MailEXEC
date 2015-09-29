@@ -1,0 +1,49 @@
+{
+  "name": "clientcontact",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "comments": "Title/Position"
+    },
+    "officephone": {
+      "type": "string",
+      "comments": "Office Phone Number"
+    },
+    "email": {
+      "type": "string",
+      "comments": "Email Address"
+    },
+    "firstname": {
+      "type": "string",
+      "required": true,
+      "comments": "First Name"
+    },
+    "lastname": {
+      "type": "string",
+      "required": true,
+      "comments": "Last Name"
+    },
+    "imageurl": {
+      "type": "string",
+      "comments": "Image URL"
+    },
+    "mobilephone": {
+      "type": "string",
+      "comments": "Mobile/Cell Phone Number"
+    },
+    "isactive": {
+      "type": "boolean",
+      "comments": "Is the Contact Active?"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
