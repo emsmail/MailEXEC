@@ -50,11 +50,6 @@
       "type": "hasMany",
       "model": "clientshippingaccount",
       "foreignKey": ""
-    },
-    "clientstuffs": {
-      "type": "hasMany",
-      "model": "clientstuff",
-      "foreignKey": ""
     }
   },
   "acls": [],

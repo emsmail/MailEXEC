@@ -36,7 +36,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "client": {
+      "type": "belongsTo",
+      "model": "client",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }

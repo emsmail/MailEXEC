@@ -78,14 +78,16 @@
     "faxnumber": {
       "type": "string",
       "comments": "Fax Number"
-    },
-    "fax": {
-      "type": "string",
-      "comments": "Fax Number"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "client": {
+      "type": "belongsTo",
+      "model": "client",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }
