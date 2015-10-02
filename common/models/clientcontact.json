@@ -39,7 +39,7 @@
     },
     "isactive": {
       "type": "boolean",
-      "comments": "Is the Contact Active?"
+      "comments": "Is this Contact Active?"
     }
   },
   "validations": [],
