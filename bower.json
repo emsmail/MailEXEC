@@ -1,0 +1,27 @@
+{
+  "name": "MailEXEC",
+  "version": "0.0.0",
+  "homepage": "https://github.com/emsmail/MailEXEC",
+  "authors": [
+    "edb@edbrad.com <edb@edbrad.com>"
+  ],
+  "description": "Executive Mailing Service - Enterprise Mailing Resource Management System",
+  "keywords": [
+    "MailEXEC"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-resource": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7"
+  }
+}

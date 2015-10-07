@@ -61,5 +61,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "ToDo": {
+    "dataSource": "db",
+    "public": true
   }
 }

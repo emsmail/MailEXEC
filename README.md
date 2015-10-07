@@ -1,2 +1,2 @@
 # MailEXEC
-Executive Mailing Service Enterprise Mailing Resource System
+The Executive Mailing Service Enterprise Mailing Resource Management System

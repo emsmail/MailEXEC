@@ -1,3 +1,2 @@
 ## Client
-
-This is the place for your application front-end files.
+Front-End/UI for The Executive Mailing Service Enterprise Resource Management System
